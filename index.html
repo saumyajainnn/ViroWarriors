@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Fighter Game</title>
+</head>
+<body>
+    <h1>Covid Fighter</h1>
+    <p>Click the button below to launch the game.</p>
+    <button onclick="launchGame()">Start Game</button>
+
+    <script>
+        function launchGame() {
+            alert("Please make sure you have Java installed to run this game!");
+            // Since Java applets and Web Start are deprecated, instruct the user to run the game from a JAR
+            window.open("instructions.html", "_blank"); // Optional: You can redirect to a page with further instructions
+        }
+    </script>
+</body>
+</html>
